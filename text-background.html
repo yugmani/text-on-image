@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text with image background</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .container {
+      width: 80%;
+      height: 80vh;
+      margin: 10px;
+      position: relative;
+    }
+
+    p {
+      background-image: url(https://images.unsplash.com/photo-1620506642323-15ce831f0e48?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw2OHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 120px;
+      font-weight: bold;
+      -webkit-font-smooting: antialised;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <p>Awesome HTML & CSS</p>
+
+    <div class="links">
+      <div><a href="index.html">Home</a></div>
+      <div><a href="text-image.html">Text in image</a></div>
+
+      <div><a href="me.html">Text in four corners and center of an image</a></div>
+    </div>
+  </div>
+</body>
+
+</html>
