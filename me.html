@@ -1,8 +1,75 @@
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <h2>oh whaaa!</h2>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <script src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    .container {
+      width: 70%;
+      height: 500px;
+      margin: 10px;
+      position: relative;
+    }
+
+    .bottom-left {
+      position: absolute;
+      bottom: 10px;
+      left: 15px;
+
+      font-size: 30px;
+      color: black;
+    }
+
+    .top-left {
+      position: absolute;
+      top: 10px;
+      left: 15px;
+
+      font-size: 30px;
+      color: yellow;
+    }
+
+    .top-right {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+
+      font-size: 30px;
+      color: blue;
+    }
+
+    .bottom-right {
+      position: absolute;
+      bottom: 10px;
+      right: 15px;
+
+      font-size: 30px;
+      color: red;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      font-size: 30px;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="https://images.unsplash.com/photo-1620582158992-19ea0977500e?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+    <div class="bottom-left">Bottom Left</div>
+    <div class="top-left">Top Left</div>
+    <div class="top-right">Top Right</div>
+    <div class="bottom-right">Bottom Right</div>
+    <div class="centered">Centered</div>
+    <div><a href="index.html">Home</a></div>
+  </div>
+</body>
+
 </html>
